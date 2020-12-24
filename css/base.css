@@ -1,0 +1,60 @@
+/* cuon trang    */
+.navbar-fixed-top.scrolled {
+    background-color: blue !important;
+    transition: background-color 200ms linear;
+  }
+
+  /* .navbar-fixed-top.scrolled .nav-link {
+    color: black;
+  } */
+  .navbar .nav-item:not(:last-child) {
+      margin-right: 35px;
+    }
+
+    .dropdown-toggle::after {
+       transition: transform 0.15s linear;
+    }
+
+    .show.dropdown .dropdown-toggle::after {
+      transform: translateY(3px);
+    }
+
+    .dropdown-menu {
+      margin-top: 0;
+    }
+
+
+  /* .text-black.nav-link{
+    color: black;
+  }
+  .text-black:hover{
+    color: white;
+  } */
+  /* bg .dropdown-menu */
+  .dropdown-bg{
+    background-color: white;
+  }
+  /* backgroup list nav  */
+  .dropdown-menu {
+    background-color: white;
+  }
+
+  .spacer {
+    height: 55px;
+  }
+  /* bg footer  */
+ .bgr-foot{
+    background-color:#6e75a9;
+  }
+  /* bg copy */
+  .bgr-copy{
+    background-color: #464646;
+  }
+
+
+/* restaurant  */
+
+.border-radius{
+    border: 1px solid #bdbaba;
+    border-radius: 50%;
+}
